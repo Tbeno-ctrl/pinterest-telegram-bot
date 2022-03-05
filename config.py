@@ -4,7 +4,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
 }
 TOKEN = os.getenv("5297484538:AAG_q8KOIztQgOXwsS7-TIfdqEmghqLDdWc")
-WEBHOOK_URL = os.getenv("https://indesr.herokuapp.com")
+WEBHOOK_URL = os.getenv("https://pintre.herokuapp.com")
 REDIS_URL = os.getenv("REDIS_URL")
 WORKER_URL = os.getenv("WORKER_URL")
 WORKER_HEADERS = {"X-API-Key": os.getenv("WORKER_API_KEY")}
